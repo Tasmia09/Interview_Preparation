@@ -1,0 +1,41 @@
+==> HashSet is faster than ArrayList
+
+#initialize HashSet ==> does not maintain order ==> does not allow duplicates
+Set<Integer> hs = new HashSet<>(); / Set<Integer> hs = new HashSet<>(initial_capacity);
+#Methods:
+	add(E e)
+	clear()
+	contains(Object o)
+	remove(Object o)
+	size()
+	
+	
+	
+#initialize ArrayList ==> maintains order ==> allows duplicates
+List<Integer> arr = new ArrayList<>(); / List<Integer> arr = new ArrayList<>(initial_capacity);
+#Methods:
+	add(E e)
+	get(int index)
+	add(int index, E element)
+	clear()
+	contains(Object o)
+	indexOf(Object o)
+	lastIndexOf(Object o)
+	toArray()
+	toArray(T[] a)
+	isEmpty()
+	remove(int index)
+	remove(Object o)
+	size()
+	
+
+#LinkedList 
+#Queue
+#Stack
+#HashTable
+#HashMap
+	
+	
+
+	
+	
