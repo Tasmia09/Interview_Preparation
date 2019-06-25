@@ -40,13 +40,16 @@ public class ValidParentheses {
 			else {
 				stack.push(paren.charAt(i));
 			}
-				
-		}
-		if (flag == 0 || !stack.isEmpty())
+			
+			if (flag == 0 || !stack.isEmpty())
 			System.out.println("false");
 		else
 			System.out.println("true");
+				
+		}
+		}
+		
 		
 	}
 
-}
+

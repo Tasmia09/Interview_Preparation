@@ -27,13 +27,60 @@ List<Integer> arr = new ArrayList<>(); / List<Integer> arr = new ArrayList<>(ini
 	remove(int index)
 	remove(Object o)
 	size()
+#traverse a list
+// iterate via "for loop"
+for (int i = 0; i < crunchifyList.size(); i++) {
+	System.out.println(crunchifyList.get(i));
+}
+
+// iterate via "New way to loop"
+System.out.println("\n==> Advance For Loop Example..");
+for (String temp : crunchifyList) {
+	System.out.println(temp);
+}
 	
 
 #LinkedList 
+
+
 #Queue
+#Initialize
+Queue<Integer> q = new LinkedList<>();
+#Methods:
+	add(E e)
+	offer(E e)
+	peek()
+	remove()
+
+
 #Stack
+#Initiazlie
+Stack <Integer> st = new Stack<>();
+#Methods:
+	empty()
+	peek()
+	pop()
+	push(E item)
+	search(Object o) ==> Returns the 1-based position where an object is on this stack.
+
 #HashTable
+
+
 #HashMap
+#Initializa HashMap ==>
+HashMap<Key, Value> map = new HashMap<>();
+#Methods:
+	containsKey(Object key)
+	containsValue(Object value)
+	get(Object key)
+	getOrDefault(Object key, V defaultValue) ==> Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.	
+	keySet() ==> Returns a Set view of the keys contained in this map.
+	isEmpty()
+	put(K key, V value)
+	remove(Object key)
+	remove(Object key, Object value) ==> Removes the entry for the specified key only if it is currently mapped to the specified value.
+	size()
+	values() ==> Returns a Collection view of the values contained in this map.
 	
 	
 

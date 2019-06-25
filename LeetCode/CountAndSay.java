@@ -1,4 +1,4 @@
-package leetode;
+//package leetode;
 public class CountAndSay {
 
 	public static void main(String[] args) {
